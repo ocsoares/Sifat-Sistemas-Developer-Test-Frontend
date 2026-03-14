@@ -1,4 +1,5 @@
 import CmvChart from "./components/CmvChart/CmvChart";
+import LeastSoldProducts from "./components/LeastSoldProducts/LeastSoldProducts";
 import TopGroups from "./components/TopGroups/TopGroups";
 
 export default function App() {
@@ -6,6 +7,7 @@ export default function App() {
         <div>
             <CmvChart />
             <TopGroups />
+            <LeastSoldProducts />
         </div>
     );
 }
