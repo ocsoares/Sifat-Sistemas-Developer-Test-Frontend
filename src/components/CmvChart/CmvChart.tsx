@@ -114,7 +114,7 @@ export default function CmvChart() {
             <Header>
                 <TitleAccent />
                 <Title>Custo de Mercadoria Vendida</Title>
-                <Subtitle>2024</Subtitle>
+                <Subtitle>Anual</Subtitle>
             </Header>
             {loading ? (
                 <LoadingText>Carregando...</LoadingText>
